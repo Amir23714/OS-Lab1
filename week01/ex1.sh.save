@@ -1,0 +1,2 @@
+find /usr/bin -name *gcc* >ex2.txt
+   77  sort ex2.txt -r > ex1.txt 

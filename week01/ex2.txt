@@ -1,0 +1,87 @@
+    1  clear
+    2  sudo apt update
+    3  sudo apt install telegram-desktop
+    4  clear
+    5  python --version
+    6  python3 --version
+    7  sudo snap install --classic code
+    8  code
+    9  sudo apt-get remove code
+   10  clear
+   11  sudo apt update
+   12  sudo apt install software-properties-common apt-transport-https wget -y
+   13  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+   14  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+   15  sudo apt install code
+   16  sudo snap install --classic code
+   17  sudo apt-get remove code
+   18  sudo snap install --classic code
+   19  sudo apt-get remove code
+   20  sudo apt remove code
+   21  sudo apt remove coode
+   22  sudo apt remove code
+   23  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   24  sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+   25  google-chrome
+   26  dpkg --list | grep google  
+   27  sudo apt-get install -f
+   28  google-chrome
+   29  lsb_release -a”
+   30  lsb_release -a
+   31  lspci -k | grep -A 2 -i "VGA"
+   32  software-properties-gtk
+   33  ls
+   34  mkdir projects
+   35  cd projects/
+   36  git clone https://github.com/Amir23714/OS-Lab1.git
+   37  sudo apt install git
+   38  clear
+   39  sudo apt install git
+   40  git clone https://github.com/Amir23714/OS-Lab1.git
+   41  clear
+   42  type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+   43  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+   44  gh
+   45  sudo snap install gh   
+   46  gh
+   47  gh auth login
+   48  clear
+   49  git clone https://github.com/Amir23714/OS-Lab1.git
+   50  mkdir oslabs
+   51  cd oslabs/
+   52  mkdir week01
+   53  cd week01/
+   54  cd projects/
+   55  ls
+   56  cd oslabs/
+   57  ls
+   58  cd week01/
+   59  ls
+   60  clear
+   61  find -name gcc
+   62  sudo apt install gcc
+   63  clear
+   64  find -name gcc
+   65  find -name gcc ~
+   66  find -name gcc /usr/bin/
+   67  find usr/bin -name gcc
+   68  find /usr/bin -name gcc
+   69  find /usr/bin -name *gcc*
+   70  find /usr/bin -name *gcc* >ex1.txt
+   71  cat ex1.txt 
+   72  sort ex1.txt -r 
+   73  sort ex1.txt -r > ex1.txt 
+   74  cat ex1.txt 
+   75  rm ex1.txt 
+   76  find /usr/bin -name *gcc* >ex2.txt
+   77  sort ex2.txt -r > ex1.txt 
+   78  cat ex1.txt 
+   79  rm ex2.txt 
+   80  history
+   81  vim
+   82  nano
+   83  nano ex1.sh
+   84  cat ex1.sh
+   85  clear
+   86  history
+   87  history > ex2.txt

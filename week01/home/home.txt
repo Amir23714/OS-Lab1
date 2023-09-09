@@ -1,0 +1,11 @@
+google-chrome-stable_current_amd64.deb
+Videos
+Templates
+Public
+Pictures
+Music
+Documents
+Desktop
+Downloads
+snap
+projects
