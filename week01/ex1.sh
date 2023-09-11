@@ -1,5 +1,4 @@
 #!/bin/bash 
 
-find /usr/bin -name *gcc* >ex2.txt
-sort ex2.txt -r > ex1.txt 
+find /usr/bin/ -name *gcc* | tail -n 5 | sort -r > ex1.txt
 

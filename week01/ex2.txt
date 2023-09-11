@@ -85,3 +85,242 @@
    85  clear
    86  history
    87  history > ex2.txt
+   88  cat ex2.txt
+   89  nano ex2.sh
+   90  cat ex2.sh
+   91  clear
+   92  nano ex3.sh
+   93  bash ex3.sh 
+   94  clear
+   95  nano main.c
+   96  gcc main.c -o ex4
+   97  ls
+   98  ex4
+   99  ./ex4
+  100  clear
+  101  echo $0
+  102  clear
+  103  ls
+  104  git add .
+  105  git init
+  106  git add .
+  107  git commit -m "First week"
+  108  git config --global user.mail "am.gubaidullin@innopolis.university"
+  109  git config --global user.name "Amir23714"
+  110  git commit -m "First week"
+  111  cd projects/oslabs/week01/
+  112  git commit -m "First week"
+  113  git config --global user.mail "am.gubaidullin@innopolis.university"
+  114  git config --global user.email "am.gubaidullin@innopolis.university"
+  115  git config --global user.name "Amir23714"
+  116  git commit -m "First week"
+  117  git push
+  118  git remote add origin https://github.com/Amir23714/OS-Lab1.git
+  119  git push
+  120  git push --set-upstream origin master
+  121  git push origin
+  122  git branch
+  123  git config -l
+  124  git status
+  125  git config --global credential.helper cache
+  126  cd projects/oslabs/week01/
+  127  git push
+  128  git push --set-upstream origin master
+  129  gh
+  130  gh auth
+  131  gh auth login
+  132  gh
+  133  git
+  134  ls
+  135  cd ..
+  136  ls
+  137  cp week01/ cp
+  138  mkdir test
+  139  cp week01/ test/-r
+  140  cp week01/ test/ -r
+  141  ls test/
+  142  ls
+  143  cd week01/
+  144  ls
+  145  ls -la
+  146  rm .git/
+  147  cd ..
+  148  ls
+  149  git init
+  150  git nano .gitignore
+  151  nano .gitignore
+  152  ls
+  153  git add week01/
+  154  cd week01/
+  155  ls
+  156  ls -la
+  157  rm .git/
+  158  rm -rf .git/
+  159  cd ..
+  160  git add week01/
+  161  git commit -m "1st week"
+  162  git push
+  163  git remote add https://github.com/Amir23714/OS-Lab1.git
+  164  git remote add origin https://github.com/Amir23714/OS-Lab1.git
+  165  git push
+  166  git push --set-upstream origin master
+  167  apt
+  168  apt reinstall git
+  169  sudo apt reinstall git
+  170  git push --set-upstream origin master
+  171  sudo apt remove  git
+  172  sudo apt install git
+  173  git push --set-upstream origin master
+  174  history
+  175  git config -l
+  176  git config -l | grep am.gubaidullin@innopolis.university
+  177  git status
+  178  git add .
+  179  git push --set-upstream origin main
+  180  git push --set-upstream origin master
+  181  v
+  182  git remote -v
+  183  cd ..
+  184  ls
+  185  cd oslabs/
+  186  ls
+  187  mv week01/ ..
+  188  ls
+  189  git pull
+  190  git fetch
+  191  ls
+  192  git clone https://github.com/Amir23714/OS-Lab1
+  193  https://github.com/Amir23714/OS-Lab1
+  194  git remote set-url origin git@github.com:Amir23714/OS-Lab1.git
+  195  git push
+  196  git push --set-upstream origin master
+  197  ls
+  198  git fetch
+  199  ls
+  200  cd ..
+  201  ls
+  202  cd oslabs/
+  203  git clone https://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@github.com/Amir23714/OS-Lab1.git
+  204  cd ..
+  205  mv week01/ oslabs/
+  206  cd oslabs/
+  207  ls
+  208  ls -la
+  209  git init
+  210  git add .
+  211  git push
+  212  git push --set-upstream origin master
+  213  git status -l
+  214  git send-email 
+  215  git send-email a.tormasov@innop
+  216  -m "ueba"
+  217  git config
+  218  git config --get-all
+  219  git config
+  220  git config -l
+  221  git config --unset user.mail
+  222  git config --unset user.mail 
+  223  git config --global
+  224  git config -l
+  225  git config --global -unse
+  226  git config --global --unset
+  227  git config --global --unset user
+  228  git config --global --unset user.name
+  229  git config -l
+  230  git config --global --unset user.mail
+  231  git config --global --add user.name "Amir23714"
+  232  git config -l
+  233  history | grep cd
+  234  cd projects/oslabs/week01/
+  235  cd projects/oslabs/
+  236  ls
+  237  cd OS-Lab1/
+  238  ls
+  239  git push
+  240  ls
+  241  git init
+  242  git status
+  243  git add .
+  244  git commit -m "1st week"
+  245  git push
+  246  git config --global user.name
+  247  git config --global credential.helper store
+  248  git push
+  249  gh
+  250  gh auth
+  251  gh refresh
+  252  gh logout
+  253  gh
+  254  gh logi
+  255  gh logib
+  256  gh login
+  257  gh auth
+  258  gh auth logout
+  259  gh auth login
+  260  git config -l
+  261  cd ..
+  262  cd OS-Lab1/
+  263  ls
+  264  git push
+  265  git config --unset credential.helper
+  266  git config -l | credential
+  267  git config -l | grep credential
+  268  git config 
+  269  git puhs
+  270  git push 
+  271  git push
+  272  history | store
+  273  history | grep store
+  274  ls
+  275  git push
+  276  la
+  277  rm .git
+  278  la
+  279  rm -rf .git
+  280  ls
+  281  git init
+  282  git 
+  283  ls
+  284  git clone https://github.com/Amir23714/OS-Lab1
+  285  ls
+  286  cd OS-Lab1/
+  287  ls
+  288  git fetch 
+  289  cd ..
+  290  ls
+  291  mv week01/ OS-Lab1/
+  292  ls
+  293  cd OS-Lab1/
+  294  git push
+  295  clear
+  296  git remote set-url origin https://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@github.com/Amir23714/OS-Lab1
+  297  git push
+  298  cd projects/oslabs/
+  299  ls
+  300  cs OS-Lab1/
+  301  cd OS-Lab1/
+  302  ls
+  303  cd week01/
+  304  ls
+  305  find /usr/bin/ -name *gcc* > ex1.txt
+  306  cat ex1.txt 
+  307  last -r ex1.txt > ex1.txt
+  308  tail -r ex1.txt > ex1.txt
+  309  tail  ex1.txt > ex1.txt
+  310  cat ex1.txt
+  311  clear
+  312  history
+  313  find /usr/bin/ -name *gcc* > ex1.txt
+  314  clear
+  315  find /usr/bin/ -name *gcc* | tail ex1.txt | sort -r ex1.txt > ex1.txt
+  316  cat ex1.txt
+  317  find /usr/bin/ -name *gcc* | tail ex1.txt | sort -r ex1.txt > ex1.txt
+  318  cat ex1.txt
+  319  find /usr/bin/ -name *gcc* | tail -n 5 | sort -r > ex1.txt
+  320  cat ex1.txt
+  321  touch ex1.sh
+  322  nano ex1.sh
+  323  history
+  324  nano ex1.sh
+  325  cat ex2.txt
+  326  history > ex2.txt
