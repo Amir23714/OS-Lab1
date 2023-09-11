@@ -1,3 +1,3 @@
 #!/bin/bash
 
-history > ex2.txt
+history | tail -n 30 > ex2.txt
