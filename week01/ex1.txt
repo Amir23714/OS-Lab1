@@ -1,5 +1,5 @@
-/usr/bin/x86_64-linux-gnu-gcc-nm-9
-/usr/bin/x86_64-linux-gnu-gcc-9
-/usr/bin/gcc-ranlib-9
+/usr/bin/gcc-ar
+/usr/bin/gcc-9
 /usr/bin/gcc
 /usr/bin/c99-gcc
+/usr/bin/c89-gcc
