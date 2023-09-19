@@ -12,6 +12,10 @@ void convert(long long int x, int s, int t){
     int size = 0;
     while (x_copy > 0){
         int remaind = x_copy % 10;
+        if (remaind >= s){
+            printf("cannot convert!");
+            return;
+        }
         size++;
         x_copy = x_copy / 10;
     }
