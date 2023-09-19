@@ -10,7 +10,7 @@ int tribonacci(int n){
     int two = 1;
     int current;
     
-    for (int i = 3; i < n; i++){
+    for (int i = 3; i <= n; i++){
         current = two + one + zero;
         zero = one;
         one = two;
