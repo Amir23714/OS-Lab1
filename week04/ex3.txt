@@ -1,0 +1,6 @@
+The results we get can be explained this way:
+
+Each time we call fork() it creates the copy of program below in the current running program instance.
+Therefore, if we call fork() for the first time, we get 2 instances
+For the 2nd time - 4 instances, for the 3-d time - 8 instances etc.
+Total number of program instances will be equal to 2 in power of N, where N is the number of fork() calls
