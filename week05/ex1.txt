@@ -1,4 +1,5 @@
 Amir Gubaidullin
+Why we need to create n named pipes for n subscribers? Answer: we need this, because we want each of them to have communication bus with publisher.
 
 I found this exersise very interesting for me. It was hard to understand the task.
 However, after that I understood how to create pipes and how two processes can communicate
