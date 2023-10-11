@@ -1,0 +1,3 @@
+More threads mean higher perfomance, but only when amount of threads is
+less or equal than amount of physical processor cores.
+Otherwise, perfomance decreases

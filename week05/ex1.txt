@@ -1,0 +1,6 @@
+Amir Gubaidullin
+
+I found this exersise very interesting for me. It was hard to understand the task.
+However, after that I understood how to create pipes and how two processes can communicate
+with each other via them. Also it was interesting to write ex1.sh script. However,
+I couldn't make loop in it :(

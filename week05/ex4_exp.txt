@@ -1,0 +1,3 @@
+With larger amount of threads perfomance become better. However, again when 
+amount of threads reaches number of physical proccessor cores, perfomance decreases.
+
