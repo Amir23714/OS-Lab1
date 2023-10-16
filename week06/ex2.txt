@@ -1,0 +1,4 @@
+When I changed TRI_BASE to a small number = 100, I have got much more results in finding triangular numbers. 
+Previously it was approximately 5 - 40 numbers per process. However, now it became 250 - 450 numbers per process.
+
+All processes were executed in the order of their appearance in data.txt (from the first to the last one).

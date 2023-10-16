@@ -1,0 +1,9 @@
+The aim of the Round Robin algorithm is to minimize the average waiting time for processes.
+
+Its effectiveness directly depends on a qualitatively selected QUANTUM.
+Its advantage is that even long-term running processes will fairly receive their share of processor time.
+However, there is also a drawback - due to the large amount of QUANTUM switching, short-term processes can take longer than usual.
+
+Therefore, for example, if we choose QUANTUM to be very large, the processes will be executed simply in the order they arrive, without switching QUANTUM
+Otherwise, each process will be executed in at least 1 run. I mean, when switching Quantum, each process (its chunks) can be executed several times
+before its full completion

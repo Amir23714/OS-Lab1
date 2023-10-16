@@ -1,0 +1,3 @@
+Results are approximately the same. However, processes come in another order (short job first).
+If there is longer job that can be executed immediately, and shorter job which will come in a few seconds, we execute longer one (I mean we are not waiting).
+SJF aims to minimize the waiting time of processes in the queue, but overall time stays the same.
