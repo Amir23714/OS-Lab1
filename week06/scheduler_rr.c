@@ -152,7 +152,7 @@ void check_burst() {
 
         if (data[running_process].burst == 0) {
             // Process is finished
-            data[running_process].ct = total_time + 1;
+            data[running_process].ct = total_time;
             data[running_process].tat = data[running_process].ct - data[running_process].at;
             data[running_process].wt = data[running_process].tat - data[running_process].bt;
             data[running_process].rt = data[running_process].ct - data[running_process].first_exec;
@@ -160,8 +160,6 @@ void check_burst() {
             printf("Scheduler: Terminating Process %d (Remaining Time: %d)\n", running_process, 0);
             fflush(stdout);
             terminate(ps[running_process]);
-    
-            
        
             running_process = -1;
 
@@ -182,6 +180,7 @@ void check_burst() {
 };  
 void schedule_handler(int signum) {
     
+    find_next_process();
 
     if (running_process != -1) {
         check_burst();
@@ -211,8 +210,7 @@ void schedule_handler(int signum) {
         fflush(stdout);
         exit(0);
     }
-    
-    find_next_process();
+
 
     if (isEmpty(queue)){
         total_time+=1;
