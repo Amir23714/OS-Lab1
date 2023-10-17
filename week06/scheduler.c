@@ -7,6 +7,7 @@
 #include <sys/time.h>
 #include <signal.h>
 #include <string.h>
+#include <sys/wait.h>
 
 #define PS_MAX 10
 
@@ -112,6 +113,9 @@ void check_burst() {
             data[running_process].wt = data[running_process].tat - data[running_process].bt;
             data[running_process].rt = data[running_process].ct - data[running_process].bt - data[running_process].at;
             terminate(ps[running_process]);
+            
+            int status;
+            pid_t result = waitpid(ps[running_process], &status, 0);
     
             printf("Scheduler: Terminating Process %d (Remaining Time: %d)\n", running_process, 0);
             fflush(stdout);
