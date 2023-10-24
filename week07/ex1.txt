@@ -1,5 +1,8 @@
-First fit : 1.697134
+First fit : 4.516245
+Throughput : 11.956836 qps
 
-Best fit : 0.660083
+Best fit : 1.494958
+Throughput : 36.121416 qps
 
-Worst fit : 0.653962
+Worst fit : 1.508224
+Throughput : 35.803700 qps
