@@ -1,0 +1,5 @@
+First fit : 1.697134
+
+Best fit : 0.660083
+
+Worst fit : 0.653962
