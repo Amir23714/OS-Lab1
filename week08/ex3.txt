@@ -1,0 +1,3 @@
+Memory usage line prints program's memory consumption in kilobytes at various time intervals. 
+Our program memory usage increase during the time. And "vmstat 1" command shows
+virtual memory usage by system processes.
