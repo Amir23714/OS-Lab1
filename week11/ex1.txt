@@ -1,0 +1,21 @@
+lib64
+.
+file1
+ex1
+file2
+lib
+..
+bin
+lib64
+.
+file1
+ex1
+file2
+lib
+..
+bin
+
+The differences in output between the two runs stem from the fact that, in the first run, the root directory of the process was altered, establishing a confined environment with a restricted set of files and directories.
+
+During the second run, where the root directory remained unchanged, the program executed within the original system environment. This environment includes additional system directories such as /home, /proc, and /sys. Nevertheless, it's important to note that the shared libraries still originate from the LOFS, showcasing how modifying the root directory with chroot isolates the execution environment and influences the perception of available files.
+
