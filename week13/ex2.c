@@ -60,7 +60,7 @@ bool mark_of_processes[MAX_PROCESSES] = {false};
 bool checkResourseRequest(int process_index){
 
     for (int i = 0 ; i < resourses; i++){
-        if (R[process_index][i] > A[i]){
+        if (R[process_index][i] <= A[i]){
             return false;
         }
     }
