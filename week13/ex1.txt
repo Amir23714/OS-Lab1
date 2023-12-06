@@ -1,0 +1,20 @@
+Thread 1 is created
+Thread 1 tries to lock mutex 2
+Thread 3 is created
+Thread 3 tries to lock mutex 0
+Thread 3 locks mutex 0 for 2 seconds
+Thread 1 tries to lock mutex 0
+Thread 1 locks mutex 2 for 4 seconds
+Thread 3 currently locks mutex 0
+Thread 3 tries to lock mutex 2
+Deadlock is detected
+Mutex 0 is locked by Thread 3
+Mutex 0 is requested by Thread 1
+Mutex 2 is locked by Thread 1
+Mutex 2 is requested by Thread 3
+
+
+
+Deadlock occured because thread1 locked mutex2 for 4 seconds and thread3 locked mutex0 for 2 seconds. And then thread1 required mutex, which is already used by thread3, and thread3 required mutex, which is already used by thread1.
+I am sure, it happens because thread1 does not have time to release mutex2, before thread3 requests it. And thread3 does not have time to release mutex0, before thread1 requests it.
+If we will run this program multiple times, we will get different results, because each run program will generate different time for each thread to hold mutex.
